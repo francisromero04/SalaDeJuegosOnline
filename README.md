@@ -4,13 +4,6 @@
 
 La aplicación "Sala de Juegos" es una plataforma diseñada para que los usuarios puedan medir sus habilidades cognitivas y motrices a través de una serie de juegos. Los usuarios deben registrarse e iniciar sesión para acceder a los juegos y ver estadísticas de su desempeño.
 
-## Tecnologías Utilizadas
-
-- **Frontend:** Angular
-- **Backend:** Firebase
-- **Estilos:** Angular Material
-- **Despliegue:** Heroku / Firebase Hosting
-
 ## Componentes y Funcionalidades
 
 ### Sprint 1 (Clase 02)
