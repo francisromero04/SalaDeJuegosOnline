@@ -1,27 +1,55 @@
-# Tpsaladejuegos
+# Sala de Juegos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+## Descripción del Proyecto
 
-## Development server
+La aplicación "Sala de Juegos" es una plataforma diseñada para que los usuarios puedan medir sus habilidades cognitivas y motrices a través de una serie de juegos. Los usuarios deben registrarse e iniciar sesión para acceder a los juegos y ver estadísticas de su desempeño.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologías Utilizadas
 
-## Code scaffolding
+- **Frontend:** Angular
+- **Backend:** Firebase
+- **Estilos:** Angular Material
+- **Despliegue:** Heroku / Firebase Hosting
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Componentes y Funcionalidades
 
-## Build
+### Sprint 1 (Clase 02)
+- **Configuración del Proyecto:**
+  - Creación del proyecto y despliegue en Heroku/Firebase.
+- **Componentes Implementados:**
+  - **Login:** Componente para que los usuarios se registren e inicien sesión.
+  - **Home:** Pantalla principal con acceso a los juegos y listados.
+  - **Quién Soy:** Información personal del alumno, imagen y explicación del juego propio.
+- **Estilo:**
+  - Inclusión de un favicon.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Sprint 2 (Clase 03)
+- **Home:**
+  - Pantalla principal con acceso a juegos y listados.
+  - Información del usuario logueado y opción de Logout.
+- **Login:**
+  - Validación del usuario con Firebase.
+  - Registro de la fecha y hora de ingreso en Firebase.
+  - Botones de acceso rápido para facilitar el login.
+- **Registro:**
+  - Creación de nuevos usuarios y redirección automática al Home.
+  - Mensajes de error si el usuario ya está registrado (sin uso de alertas).
 
-## Running unit tests
+### Sprint 3 (Clase 04)
+- **Chat:**
+  - Integración de un chat accesible solo para usuarios logueados.
+  - Registro del usuario y hora de los mensajes enviados.
+- **Módulos y Lazy Loading:**
+  - Implementación de módulos y carga diferida de componentes.
+- **Juegos Implementados:**
+  - **Ahorcado:** Juego con botones para ingresar letras en lugar de teclado.
+  - **Mayor o Menor:** Juego de cartas donde el jugador adivina si la siguiente carta es mayor o menor.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Sprint 4 (Clase 05)
+- **Preguntados:**
+  - Implementación del juego Preguntados con imágenes obtenidas de una API.
+  - Integración del llamado a la API mediante un servicio.
+  - Opciones de elección sin uso de teclado.
+- **Juego Propio:**
+  - Desarrollo e implementación de un juego original.
+  - Descripción del juego propio en la sección “Quién Soy”.
